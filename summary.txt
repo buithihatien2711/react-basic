@@ -1,0 +1,14 @@
+STRUCTURE
+assets: cấu hình global, lưu trữ hình ảnh, video, ... công khai (nơi có thể public các file mà người khác có thể xem)
+components: viết các component dùng ở nhiều nơi
+routes: định nghĩa các route
+store: nơi viết redux
+styles: viết các file scss khai báo css global
+utils: các function
+views: các pages
+service: gọi các api
+
+COMPONENT 
+có 2 loại component: class component / function component (function, arrow)
+JSX: hàm js trả về khối html
+Nếu 1 hàm muốn trả về 2 khối mà ko có thẻ bọc ngoài thì dùng <React.Fragment></React.Fragment> hoặc <></>
