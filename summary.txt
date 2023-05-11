@@ -12,3 +12,8 @@ COMPONENT
 có 2 loại component: class component / function component (function, arrow)
 JSX: hàm js trả về khối html
 Nếu 1 hàm muốn trả về 2 khối mà ko có thẻ bọc ngoài thì dùng <React.Fragment></React.Fragment> hoặc <></>
+
+Cài đặt React-Toastify: npm install --save-exact react-toastify@8.0.2
+Cài đặt React Routers: npm install --save-exact react-router-dom@5.3.0
+
+Route: nếu để url '/' là case đầu thì thêm exact
