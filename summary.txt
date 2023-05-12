@@ -21,3 +21,6 @@ Route: nếu để url '/' là case đầu thì thêm exact
 HOC: higher order component: dùng để bọc 1 component để thêm prop cho component
 
 Cài đặt axios npm install --save-exact axios@0.21.4
+
+Cài đặt Redux:  npm install --save-exact redux@4.1.1 react-redux@7.2.5
+                npm --force --save-exact redux@4.1.1 react-redux@7.2.5      
