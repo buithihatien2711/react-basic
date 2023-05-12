@@ -17,3 +17,7 @@ Cài đặt React-Toastify: npm install --save-exact react-toastify@8.0.2
 Cài đặt React Routers: npm install --save-exact react-router-dom@5.3.0
 
 Route: nếu để url '/' là case đầu thì thêm exact
+
+HOC: higher order component: dùng để bọc 1 component để thêm prop cho component
+
+Cài đặt axios npm install --save-exact axios@0.21.4

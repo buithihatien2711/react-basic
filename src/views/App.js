@@ -12,6 +12,8 @@ import {
   Link
 } from "react-router-dom";
 import Home from "./Example/Home";
+import ListUser from "./User/ListUser";
+import DetailUser from "./User/DetailUser";
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
             </Route>
             <Route path="/" exact>
               <Home />
+            </Route>
+            <Route path="/user" exact>
+              <ListUser />
+            </Route>
+            <Route path="/user/:id" exact>
+              <DetailUser />
             </Route>
           </Switch>
         </header>
